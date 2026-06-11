@@ -30,7 +30,7 @@
     gap: 12px;
     margin-left: 150px;
 }
-.right{
+.right,.right > a{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,11 +40,15 @@
     margin-right: 170px;
     gap: 20px;
 }
-#object1:hover,#object2:hover,#object3:hover,#object5:hover,#object6:hover,#object7:hover{
+#object1:hover,#object2:hover,#object3:hover,#object5:hover,#object6:hover,#object7 > a:hover{
     color: #CBD5E1 ;
     cursor: pointer;
 }
-#object4:hover{
+#object7 > a{
+    text-decoration: none;
+    color: white;
+}
+#object4 >:hover{
     cursor: pointer;
 }
 .left > img{
