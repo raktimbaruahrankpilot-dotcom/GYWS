@@ -396,6 +396,13 @@
     color: oklch(85.2% .199 91.936);
     cursor: pointer;
 }
+.footermiddle > a{
+    text-decoration: none;
+    color: oklch(87.2% .01 258.338);
+}
+.footermiddle > a:hover{
+    color: oklch(85.2% .199 91.936);
+}
 .Email,.Phone{
     display: flex;
     gap: 10px;
