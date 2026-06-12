@@ -434,6 +434,50 @@
     margin-left: 30px;
 }
 }
+/* Responsive between Laptop-L & Laptop (Only For Footer) */
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+.footer{
+    height: 37%;
+    max-width: 100%;
+}
+.footerstart{
+   gap: 20px;
+   padding-right: 0px;
+}
+.footerright {
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    max-width: 230px;
+}
+.footermiddle{
+    margin-right: 60px;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 50px;
+    width: 200px;
+    min-width: 120px;
+}
+.footerleft{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footerleftdetails{
+    min-width: 210px;
+}
+.footermiddle > h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.footermiddle > a {
+   width: 66px;
+   white-space: nowrap;
+}
+.footerend {
+    padding-top: 15px;
+}
+}
 /* Responsive for Laptop */
 @media screen and (min-width: 769px) and (max-width: 1024px){
 .right, .right > a {
@@ -482,6 +526,50 @@
     gap: 10px;
 }
 }
+/* Responsive between Laptop & Tablet (Only For Footer) */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.footer{
+    height: 37%;
+    max-width: 100%;
+}
+.footerstart{
+   gap: 20px;
+   padding-right: 0px;
+}
+.footerright {
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    max-width: 230px;
+}
+.footermiddle{
+    margin-right: 60px;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 50px;
+    width: 200px;
+    min-width: 120px;
+}
+.footerleft{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footerleftdetails{
+    min-width: 210px;
+}
+.footermiddle > h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.footermiddle > a {
+   width: 66px;
+   white-space: nowrap;
+}
+.footerend {
+    padding-top: 15px;
+}
+}
 /* Responsive for Tablet */
 @media screen and (min-width: 540px) and (max-width: 768px){
 .left {
@@ -514,19 +602,21 @@
     flex-wrap: wrap;
 }
 .footer{
-    height: 67%;
+    height: 37%;
+    max-width: 100%;
 }
 .footerstart{
    gap: 20px;
+   padding-right: 0px;
 }
 .footerright {
     gap: 10px;
-    margin-bottom: 95px;
-    margin-right: 0;
+    margin-bottom: 15px;
+    margin-right: 10px;
     max-width: 230px;
 }
 .footermiddle{
-    margin-right: 120px;
+    margin-right: 60px;
     margin-left: 20px;
     font-size: 14px;
     margin-bottom: 50px;
